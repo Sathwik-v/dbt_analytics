@@ -1,0 +1,7 @@
+version: 2
+
+models:
+  - name: myFirstDbtModel
+    description: "A model to verify dbt connection details in Snowflake"
+    config:
+      materialized: view   # or "table"
